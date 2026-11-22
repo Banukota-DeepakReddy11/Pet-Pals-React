@@ -1,0 +1,60 @@
+
+/*
+  Pet Pals - Custom Styling
+  Assignment: Week 4 - Pet Search
+*/
+
+body {
+  background-color: #f5f7fa;
+  color: #333;
+  font-family: Arial, sans-serif;
+}
+
+/* Main page heading */
+h1 {
+  color: #315b50;
+}
+
+/* Animal filter */
+.form-select {
+  max-width: 300px;
+  border-radius: 8px;
+}
+
+/* Search input */
+.form-control {
+  padding: 12px;
+  border-radius: 8px;
+}
+
+/* Pet pictures */
+.pet-image {
+  width: 85px;
+  height: 75px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* Animal table */
+.table {
+  background-color: white;
+}
+
+.table td,
+.table th {
+  padding: 15px;
+}
+
+/* Mobile screen adjustments */
+@media (max-width: 576px) {
+  .pet-image {
+    width: 60px;
+    height: 60px;
+  }
+
+  .table td,
+  .table th {
+    padding: 8px;
+    font-size: 13px;
+  }
+}
